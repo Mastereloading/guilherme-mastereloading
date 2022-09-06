@@ -1,8 +1,11 @@
+import Routes from './pages/Routes'
+import GlobalStyle from './styles'
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Guilherme Mastereloading</h1>
-      <a href="https://github.com/Mastereloading"  target="blank">Github</a>
+  return ( 
+    <div>
+      <GlobalStyle />
+      <Routes />
     </div>
   )
 }
