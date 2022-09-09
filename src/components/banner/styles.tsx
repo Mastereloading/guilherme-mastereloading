@@ -3,5 +3,5 @@ import colors from '../../styles/colors'
 
 export const BannerContainer = styled.div`
     height: 60vh;
-    background-color: ${colors.white};
+    // background-color: ${colors.black};
 `

@@ -1,6 +1,5 @@
 import Header from '../../components/header/Header'
 import Banner from '../../components/banner/Banner'
-
 import colors from '../../styles/colors'
 
 const Home = () => {
@@ -10,7 +9,7 @@ const Home = () => {
       <Banner />
       <div
         style={{
-          backgroundColor: colors.white
+          backgroundColor: colors.black
         }}
       >
         <h1>Guilherme Mastereloading</h1>

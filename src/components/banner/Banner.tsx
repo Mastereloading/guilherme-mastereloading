@@ -3,7 +3,13 @@ import { BannerContainer } from './styles'
 const Banner = () => {
   return (
     <BannerContainer>
-      OI
+      <br />
+      <br />
+      <button>sdfadsaf</button>
+      <br />
+      <br />
+      <br />
+      <button className='button-light'>saduigh</button>
     </BannerContainer>
   )
 }

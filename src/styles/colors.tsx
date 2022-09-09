@@ -1,9 +1,9 @@
 const colors = {
-    primary: "#2081C3",
-    secondary: "#63D2FF",
-    tertiary: "#78D5D7",
-    black: "#4F5655",
-    white: "#F7F9F9"
+    primary: '#2155CD',
+    secondary: '#0AA1DD',
+    tertiary: '#79DAE8',
+    white: '#F5F5F5',
+    black: '#222222',
 }
 
 export default colors
