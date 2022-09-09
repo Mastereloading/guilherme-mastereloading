@@ -11,8 +11,8 @@ export const MenuContainer = styled.nav`
         align-items: center;
         li{
             font-size: 30px;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
             cursor: pointer;
             transition-duration: 1.5s;
             &:hover{

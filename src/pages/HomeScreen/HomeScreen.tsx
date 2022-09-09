@@ -1,10 +1,13 @@
-import Header from '../components/header/Header'
-import colors from '../styles/colors'
+import Header from '../../components/header/Header'
+import Banner from '../../components/banner/Banner'
+
+import colors from '../../styles/colors'
 
 const Home = () => {
   return (
     <div className="App">
       <Header />
+      <Banner />
       <div
         style={{
           backgroundColor: colors.white

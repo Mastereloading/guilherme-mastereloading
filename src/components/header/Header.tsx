@@ -1,17 +1,16 @@
 import Menu from "../menu/Menu"
+import SocialMedia from "../social/SocialMedia"
 import { Container, HeaderContainer } from "./styles"
+
+import logo from '../../assets/logo.svg'
 
 const Header = () => {
     return (
       <HeaderContainer>
         <Container>
-          <div>
-            Logo
-          </div>
+          <img style={{ width: 30, color: 'blue'}} src={logo} />
           <Menu />
-          <div>
-            Social Media
-          </div>
+          <SocialMedia />
         </Container>
       </HeaderContainer>
     )
