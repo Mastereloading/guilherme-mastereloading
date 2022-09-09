@@ -19,7 +19,7 @@ export default createGlobalStyle`
     ul {
         list-style-type: none;
     };
-    button {
+    .button-dark {
         padding: 12px 32px;
         font-size: 1rem;
         text-transform: uppercase;
@@ -27,15 +27,26 @@ export default createGlobalStyle`
         color: ${colors.black};
         border: 1px solid ${colors.white};
         font-weight: 600;
-        cursor: pointer
+        cursor: pointer;
+        &:hover {
+            background: rgba(247, 247, 247, 0.2);
+            color: ${colors.white};
+            transition: 0.3s
+        }
     };
     .button-light {
         background:transparent;
-        color: ${colors.white}
-    };
-    button:hover {
-        background: rgba(249, 249, 249, 0.2);
         color: ${colors.white};
-        transition: 0.3s
+        padding: 12px 32px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        border: 1px solid ${colors.white};
+        font-weight: 600;
+        cursor: pointer;
+        &:hover {
+            background: rgba(247, 247, 247, 0.2);
+            color: ${colors.white};
+            transition: 0.3s
+        }
     }
 `

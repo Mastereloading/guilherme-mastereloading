@@ -2,10 +2,28 @@ import styled from 'styled-components'
 import colors from '../../styles/colors'
 
 export const Container = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
+    .headerwithoutbg {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem;
+        position: fixed;
+        width: 100%;
+        height: 90px;
+        z-index: 10;
+    };
+    .headerwithbg {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem;
+        position: fixed;
+        width: 100%;
+        height: 90px;
+        z-index: 10;
+        background-color: rgba(8, 8, 8, 0.9);
+        transition: 0.6s
+    };
     .listoff {
         display: flex
     };
@@ -29,7 +47,7 @@ export const Container = styled.div`
             align-items: center;
             width: 100%;
             height: 100vh;
-            background: rgba(16, 16, 16, 0.9);
+            background: rgba(8, 8, 8, 0.9);
             position: absolute;
             top: 0;
             left: -100%;
@@ -42,7 +60,7 @@ export const Container = styled.div`
             align-items: center;
             width: 100%;
             height: 100vh;
-            background: rgba(16, 16, 16, 0.9);
+            background: rgba(8, 8, 8, 0.9);
             position: absolute;
             top: 0;
             left: 0;
