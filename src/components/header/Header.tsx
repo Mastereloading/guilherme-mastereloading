@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Container } from "./styles"
 import colors from '../../styles/colors'
@@ -23,11 +23,11 @@ const Header = () => {
           : 'headerwithoutbg'
         }
       >
-        <Link to='/'>
+        <HashLink to='/#' smooth>
           <h1>
             Mastereloading
           </h1>
-        </Link>
+        </HashLink>
         <ul
           className={
             clickHamburger
@@ -36,13 +36,13 @@ const Header = () => {
           }
         >
           <li>
-            <Link to='about' className='link'>Projetos</Link>
+            <HashLink to='/#projects' smooth className='link'>Projetos</HashLink>
           </li>
           <li>
-            <Link to='/about' className='link'>Sobre mim</Link>
+            <HashLink to='/#about' smooth className='link'>Sobre mim</HashLink>
           </li>
           <li>
-            <Link to='/contact' className='link'>Contato</Link>
+            <HashLink to='/#contact' smooth className='link'>Contato</HashLink>
           </li>
         </ul>
         <div className='hamburger' onClick={() => { setClickHamburger(!clickHamburger)}}>

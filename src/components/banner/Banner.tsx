@@ -1,7 +1,7 @@
 import { BannerContainer, MaskBanner } from './styles'
 
 import adabanner from '../../assets/adabanner.jpg'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 const Banner = () => {
   return (
@@ -14,8 +14,8 @@ const Banner = () => {
           <h1>Guilherme Oliveira</h1>
           <p className='p2'>Engenheiro de Software e Designer de Aplicativos</p>
           <div>
-            <Link to="/projects" className='button-dark'>Projetos</Link>
-            <Link to="/contact" className='button-light'>Contato</Link>
+            <HashLink to="/#projects" smooth className='button-dark'>Projetos</HashLink>
+            <HashLink to="/#contact" smooth className='button-light'>Contato</HashLink>
           </div>
         </div>
     </BannerContainer>

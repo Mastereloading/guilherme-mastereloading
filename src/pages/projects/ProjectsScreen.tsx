@@ -2,7 +2,7 @@ import colors from "../../styles/colors"
 
 const Projects = () => {
   return (
-    <div style={{ backgroundColor: colors.primary, width: '100%', height: '75vh' }}>
+    <div style={{ backgroundColor: colors.primary, width: '100%', height: '75vh' }} id='projects'>
       <h1>
         Projects
       </h1>

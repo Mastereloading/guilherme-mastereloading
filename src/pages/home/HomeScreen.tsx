@@ -5,23 +5,26 @@ import About from '../about/AboutScreen'
 import Contact from '../contact/ContactScreen'
 import Footer from '../../components/footer/Footer'
 import colors from '../../styles/colors'
+import { BrowserRouter } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className="App">
-      <Header />
-      <Banner />
-      <div
-        style={{
-          backgroundColor: colors.white
-        }}
-      >
-        <Projects />
-        <About />
-        <Contact />
+    <BrowserRouter>
+      <div className="App"  id='/#'>
+        <Header />
+        <Banner />
+        <div
+          style={{
+            backgroundColor: colors.white
+          }}
+          >
+          <Projects />
+          <About />
+          <Contact />
+        </div>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </BrowserRouter>
   )
 }
 
