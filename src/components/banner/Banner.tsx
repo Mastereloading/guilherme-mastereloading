@@ -1,6 +1,6 @@
 import { BannerContainer, MaskBanner } from './styles'
 
-import adabanner from '../../assets/adabanner.jpeg'
+import adabanner from '../../assets/adabanner.jpg'
 import { Link } from 'react-router-dom'
 
 const Banner = () => {

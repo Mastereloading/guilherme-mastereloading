@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import colors from '../../styles/colors'
 
 export const BannerContainer = styled.div`
     height: 100%;
@@ -10,6 +11,8 @@ export const BannerContainer = styled.div`
         left: 50%;
         text-align: center;
         h1 {
+            color: ${colors.primary};
+            text-shadow: 3px 3px #080808;
             font-size: 4.5rem;
             padding: 1.5rem;
         };

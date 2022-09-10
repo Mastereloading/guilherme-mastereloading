@@ -1,10 +1,9 @@
 import Header from '../../components/header/Header'
 import Banner from '../../components/banner/Banner'
-
-import About from '../about/AboutScreen'
 import Projects from '../projects/ProjectsScreen'
+import About from '../about/AboutScreen'
 import Contact from '../contact/ContactScreen'
-
+import Footer from '../../components/footer/Footer'
 import colors from '../../styles/colors'
 
 const Home = () => {
@@ -12,17 +11,16 @@ const Home = () => {
     <div className="App">
       <Header />
       <Banner />
-      <About />
-      <Projects />
-      <Contact />
-      {/* <div
+      <div
         style={{
-          backgroundColor: colors.black
+          backgroundColor: colors.white
         }}
       >
-        <h1>Guilherme Mastereloading</h1>
-        <a href="https://github.com/Mastereloading"  target="blank">Github</a>
-      </div> */}
+        <Projects />
+        <About />
+        <Contact />
+      </div>
+      <Footer />
     </div>
   )
 }

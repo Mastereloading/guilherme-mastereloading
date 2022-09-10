@@ -1,22 +1,21 @@
 import styled from 'styled-components'
-import colors from '../../styles/colors'
 
 export const Container = styled.div`
     .headerwithoutbg {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1.5rem;
+        padding: 3rem 18rem;
         position: fixed;
         width: 100%;
         height: 90px;
-        z-index: 10;
+        z-index: 10
     };
     .headerwithbg {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1.5rem;
+        padding: 3rem 18rem;
         position: fixed;
         width: 100%;
         height: 90px;
@@ -41,6 +40,12 @@ export const Container = styled.div`
         display: none
     };
     @media screen and (max-width: 1040px) {
+        .headerwithoutbg {
+            padding: 3rem
+        };
+        .headerwithbg {
+            padding: 3rem
+        };
         .listoff {
             flex-direction: column;
             justify-content: center;
@@ -67,9 +72,6 @@ export const Container = styled.div`
             z-index: -3px;
             transition: 0.3s
         };
-        .list.on {
-            background: red
-        };
         li {
             padding: 1rem 0
         };
@@ -77,7 +79,7 @@ export const Container = styled.div`
             font-size: 2rem
         };
         .hamburger {
-            padding: 1rem;
+            padding: 2rem;
             position: absolute;
             top: 0;
             right: 0;

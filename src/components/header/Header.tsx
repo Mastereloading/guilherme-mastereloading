@@ -36,16 +36,13 @@ const Header = () => {
           }
         >
           <li>
-            <Link to='/' className='link'>Home</Link>
+            <Link to='about' className='link'>Projetos</Link>
           </li>
           <li>
-            <Link to='/about' className='link'>About</Link>
+            <Link to='/about' className='link'>Sobre mim</Link>
           </li>
           <li>
-            <Link to='about' className='link'>Projects</Link>
-          </li>
-          <li>
-            <Link to='/contact' className='link'>Contact</Link>
+            <Link to='/contact' className='link'>Contato</Link>
           </li>
         </ul>
         <div className='hamburger' onClick={() => { setClickHamburger(!clickHamburger)}}>
