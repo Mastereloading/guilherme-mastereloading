@@ -18,11 +18,9 @@ export const BannerContainer = styled.div`
         };
         p {
             font-size: 1.4rem;
-            font-weight: 200;
         };
         .p2 {
             font-size: 1.4rem;
-            font-weight: 200;
             padding: 0em 0 4rem;
         };
         .button-light {

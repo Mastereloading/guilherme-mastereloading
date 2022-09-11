@@ -25,7 +25,7 @@ const Header = () => {
       >
         <HashLink to='/#' smooth>
           <h1>
-            Mastereloading
+            Mastereloading.
           </h1>
         </HashLink>
         <ul

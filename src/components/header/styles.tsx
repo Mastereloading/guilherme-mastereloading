@@ -39,7 +39,7 @@ export const Container = styled.div`
     .hamburger {
         display: none
     };
-    @media screen and (max-width: 1040px) {
+    @media screen and (max-width: 1240px) {
         .headerwithoutbg {
             padding: 3rem
         };

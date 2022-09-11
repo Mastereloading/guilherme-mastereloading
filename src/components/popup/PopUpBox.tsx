@@ -8,9 +8,7 @@ const PopUpBox = () => {
   const [boxUpDown, setBoxUpDown] = useState('boxdown')
 
   useEffect(() => {
-    setTimeout(() => {
-      setBoxUpDown('boxup')
-    }, 1500)
+    setBoxUpDown('boxup')
   }, [])
 
   return (

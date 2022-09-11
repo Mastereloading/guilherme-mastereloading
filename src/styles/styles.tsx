@@ -26,6 +26,7 @@ export default createGlobalStyle`
         background: ${colors.primary};
         color: ${colors.black};
         border: 1px solid ${colors.white};
+        border-radius: 6px;
         font-weight: 600;
         cursor: pointer;
         &:hover {
@@ -41,6 +42,7 @@ export default createGlobalStyle`
         font-size: 1rem;
         text-transform: uppercase;
         border: 1px solid ${colors.white};
+        border-radius: 6px;
         font-weight: 600;
         cursor: pointer;
         &:hover {

@@ -1,12 +1,12 @@
-import colors from "../../styles/colors"
+import { Container } from "./styles"
 
 const Projects = () => {
   return (
-    <div style={{ backgroundColor: colors.primary, width: '100%', height: '75vh' }} id='projects'>
+    <Container id='projects'>
       <h1>
         Projects
       </h1>
-    </div>
+    </Container>
   )
 }
 

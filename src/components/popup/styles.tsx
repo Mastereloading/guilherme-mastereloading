@@ -20,7 +20,7 @@ export const PopUpBoxContainer = styled.div`
     width: 200px;
     height: 250px;
     background: ${colors.white};
-    border-radius: 8px;
+    border-radius: 6px;
     box-shadow: 0 6px 6px rgba(8, 8, 8, 0.2);
     position: fixed;
     bottom: 0;
@@ -36,7 +36,7 @@ export const PopUpBoxContainer = styled.div`
     width: 200px;
     height: 250px;
     background: ${colors.white};
-    border-radius: 8px;
+    border-radius: 6px;
     box-shadow: 0 6px 6px rgba(8, 8, 8, 0.2);
     position: fixed;
     bottom: 0;
@@ -88,7 +88,7 @@ export const PopUpBoxContainer = styled.div`
       width: 100px;
       height: 125px;
       background: ${colors.white};
-      border-radius: 8px;
+      border-radius: 6px;
       box-shadow: 0 6px 6px rgba(8, 8, 8, 0.2);
       position: fixed;
       bottom: 0;
@@ -104,7 +104,7 @@ export const PopUpBoxContainer = styled.div`
       width: 100px;
       height: 125px;
       background: ${colors.white};
-      border-radius: 8px;
+      border-radius: 6px;
       box-shadow: 0 6px 6px rgba(8, 8, 8, 0.2);
       position: fixed;
       bottom: 0;
