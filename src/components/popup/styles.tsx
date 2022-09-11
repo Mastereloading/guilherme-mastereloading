@@ -108,7 +108,7 @@ export const PopUpBoxContainer = styled.div`
       box-shadow: 0 6px 6px rgba(8, 8, 8, 0.2);
       position: fixed;
       bottom: 0;
-      right: 0;
+      right: -100%;
       margin: 0px 15px 10px 0px;
       transition: 3s;
       z-index: 1px;
