@@ -13,7 +13,7 @@ const Banner = () => {
           <p>Bem-vindo, Eu sou</p>
           <h1>Guilherme Oliveira</h1>
           <p className='p2'>Engenheiro de Software e Designer de Aplicativos</p>
-          <div>
+          <div className='buttons'>
             <a className='button-dark' href={guilhermecv} download="GuilhermeOliveiraCV.pdf"> Download CV</a>
             <HashLink to="/#contact" smooth className='button-light'>Contato</HashLink>
           </div>

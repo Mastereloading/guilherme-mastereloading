@@ -21,13 +21,17 @@ export const BannerContainer = styled.div`
         };
         .p2 {
             font-size: 1.4rem;
-            padding: 0em 0 4rem;
+            padding: 0 0 4rem 0;
         };
         .button-light {
             margin: 1rem 0.5rem
         };
         .button-dark {
             margin: 1rem 0.5rem
+        };
+        .buttons {
+            display: flex;
+            justify-content: center
         }
     };
     @media screen and (max-width: 640px) {
@@ -40,7 +44,18 @@ export const BannerContainer = styled.div`
             };
             .p2 {
                 font-size: 1.3rem
-            }
+            };
+            .buttons {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            };
+            .button-light {
+                margin: 0.5rem 3rem
+            };
+            .button-dark {
+                margin: 0.5rem 3rem
+            };
         }
     }
 `
