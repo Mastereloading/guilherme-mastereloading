@@ -48,5 +48,17 @@ export default createGlobalStyle`
             color: ${colors.white};
             transition: 0.3s
         }
+    };
+    ::-webkit-scrollbar {
+        width: 10px;
+        background-color: ${colors.black}
+
+    };
+    ::-webkit-scrollbar-thumb {
+        width: 10px;
+        background-color: ${colors.primary}
+    };
+    ::-webkit-scrollbar-button {
+        display: none
     }
 `

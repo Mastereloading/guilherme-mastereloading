@@ -5,7 +5,7 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 3rem 18rem;
+        padding: 2rem 18rem;
         position: fixed;
         width: 100%;
         height: 90px;
@@ -15,7 +15,7 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 3rem 18rem;
+        padding: 2rem 18rem;
         position: fixed;
         width: 100%;
         height: 90px;
