@@ -14,7 +14,6 @@ export default createGlobalStyle`
     };
     h1, h2, h3, h4, p, a {
         color: ${colors.tertiary};
-        text-shadow: 1px 1px #080808;
         text-decoration: none;
     };
     ul {
