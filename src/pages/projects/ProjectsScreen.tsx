@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <Container id='projects'>
       <h1>
-        Projects
+        Projects ( Em breve )
       </h1>
     </Container>
   )

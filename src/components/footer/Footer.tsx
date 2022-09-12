@@ -21,9 +21,9 @@ const Footer = () => {
           </div>
         </div>
         <div className='right'>
-          <h3>Mais sobre mim</h3>
+          <h3>Mais informações</h3>
           <p>
-            Aluno de ciências da computação e a todo momento procurando estudar novas tecnologias, envie uma mensagem para discutirmos novos projetos!
+            Caso queira saber mais sobre meus trabalhos e projetos, entre em contato comigo ou confira tudo no GitHub e Linkedin.
           </p>
           <div className='social'>
             <a

@@ -5,7 +5,7 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 18rem;
+        padding: 1rem 20rem;
         position: fixed;
         width: 100%;
         height: 90px;
@@ -15,7 +15,7 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 2rem 18rem;
+        padding: 1rem 20rem;
         position: fixed;
         width: 100%;
         height: 90px;
@@ -41,10 +41,10 @@ export const Container = styled.div`
     };
     @media screen and (max-width: 1240px) {
         .headerwithoutbg {
-            padding: 3rem
+            padding: 0.5rem 1rem
         };
         .headerwithbg {
-            padding: 3rem
+            padding: 0.5rem 1rem
         };
         .listoff {
             flex-direction: column;

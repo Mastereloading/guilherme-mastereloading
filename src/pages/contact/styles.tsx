@@ -44,7 +44,12 @@ export const Container = styled.div`
   };
   .button-light {
     box-shadow: 0 8px 8px rgba(8, 8, 8, 0.2);
-    background: ${colors.black}
+    background: ${colors.black};
+    &:hover {
+      background: rgba(8, 8, 8, 0.6);
+      color: ${colors.white};
+      transition: 0.3s
+    }
   };
   @media screen and (max-width: 1040px) {
     grid-template-columns: 1fr;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
-  padding: 4rem 0;
+  padding: 3rem 0;
   background-color: rgba(8, 8, 8);
 `
 
@@ -18,11 +18,10 @@ export const FooterContainer = styled.div`
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1rem
   };
   .icontext {
     display: flex;
-    margin-bottom: 0.5rem
+    margin-bottom: 0.35rem
   };
   .right {
     justify-content: center;
@@ -30,7 +29,6 @@ export const FooterContainer = styled.div`
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1rem
   };
   .social {
     margin-top: 1rem
@@ -44,7 +42,7 @@ export const FooterContainer = styled.div`
     padding-bottom: 0.7rem
   };
   p {
-    font-size: 1.2rem
+    font-size: 1rem
   };
   .iconsocial {
     &:hover {
