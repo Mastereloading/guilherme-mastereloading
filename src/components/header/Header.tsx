@@ -36,13 +36,13 @@ const Header = () => {
           }
         >
           <li>
-            <HashLink to='/#projects' smooth className='link'>Projetos</HashLink>
+            <HashLink to='/#projects' smooth className='link' onClick={() => { setClickHamburger(false)}}>Projetos</HashLink>
           </li>
           <li>
-            <HashLink to='/#about' smooth className='link'>Sobre mim</HashLink>
+            <HashLink to='/#about' smooth className='link' onClick={() => { setClickHamburger(false)}}>Sobre mim</HashLink>
           </li>
           <li>
-            <HashLink to='/#contact' smooth className='link'>Contato</HashLink>
+            <HashLink to='/#contact' smooth className='link' onClick={() => { setClickHamburger(false)}}>Contato</HashLink>
           </li>
         </ul>
         <div className='hamburger' onClick={() => { setClickHamburger(!clickHamburger)}}>
