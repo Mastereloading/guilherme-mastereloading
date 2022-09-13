@@ -18,8 +18,7 @@ export const Container = styled.div`
       margin-bottom: 5rem;
     };
     .skills {
-      display: flex;
-      height: 100%;
+      height: 100%; 
       display: flex;
       flex-flow: row wrap;
       h3 {
