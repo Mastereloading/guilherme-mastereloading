@@ -19,13 +19,13 @@ export const Container = styled.div`
     };
     .skills {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-gap: 40px;
       h3 {
         margin-bottom: 0.5rem
       };
       h4 {
-        font-size: 12px
+        font-size: 0.9rem
       };
       .icontext {
         padding: 0rem 1rem 0 0;
@@ -38,7 +38,7 @@ export const Container = styled.div`
       color: ${colors.white}
     };
     p {
-      font-size: 1.0rem;
+      font-size: 1.2rem;
       color: ${colors.white}
     }
   };
@@ -69,7 +69,6 @@ export const Container = styled.div`
         margin-bottom: 3rem;
       };
       .skills {
-        grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
       };
     }

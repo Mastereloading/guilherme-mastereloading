@@ -7,13 +7,12 @@ export const Container = styled.div`
   grid-gap: 40px;
   width: 100%;
   background: ${colors.secondary};
-  padding: 4rem 12rem;
+  padding: 5rem 12rem;
   margin: auto;
   .text {
     display: flex;
     flex-direction: column;
     padding: 4rem;
-    margin-left: 4rem;
     h1 {
       font-size: 2.5rem;
       padding: 0.8rem 0;

@@ -5,7 +5,7 @@ export const Container = styled.div`
   width: 100%;
   background: ${colors.secondary};
   text-align: center;
-  padding: 2rem 0 6rem 0;
+  padding: 4rem 0 6rem 0;
   .cards {
     max-width: 1240px;
     margin: auto;
