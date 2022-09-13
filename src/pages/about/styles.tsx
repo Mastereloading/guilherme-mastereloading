@@ -61,13 +61,13 @@ export const Container = styled.div`
   };
   @media screen and (max-width: 1240px) {
     grid-template-columns: 1fr;
-    padding: 3rem;
+    padding: 2.5rem 1.5rem;
     .left {
       width: 100%;
       margin-left: 0;
       .skills {
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 40px;
+        grid-gap: 20px;
       };
     }
     .right {
