@@ -61,10 +61,13 @@ export const Container = styled.div`
   };
   @media screen and (max-width: 1240px) {
     grid-template-columns: 1fr;
-    padding: 2.5rem 1.5rem;
+    padding: 2rem 1.5rem 4rem 1.5rem;
     .left {
       width: 100%;
       margin-left: 0;
+      .title {
+        margin-bottom: 2.5rem;
+      };
       .skills {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
