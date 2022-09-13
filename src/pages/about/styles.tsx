@@ -18,9 +18,9 @@ export const Container = styled.div`
       margin-bottom: 5rem;
     };
     .skills {
-      height: 100%; 
-      display: flex;
-      flex-flow: row wrap;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 40px;
       h3 {
         margin-bottom: 0.5rem
       };
@@ -29,7 +29,7 @@ export const Container = styled.div`
       };
       .icontext {
         padding: 0rem 1rem 0 0;
-        width: 25%;
+        width: 100%;
       };
     };
     h1 {
@@ -64,7 +64,11 @@ export const Container = styled.div`
     padding: 3rem;
     .left {
       width: 100%;
-      margin-left: 0
+      margin-left: 0;
+      .skills {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+      };
     }
     .right {
       display: none
