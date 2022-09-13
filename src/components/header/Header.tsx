@@ -14,6 +14,15 @@ const Header = () => {
     window.addEventListener('scroll', checkHeader)
   }, [])
 
+  const scroll = (el: HTMLElement, offset: number) => {
+    const elementPosition = el.offsetTop - offset;
+    window.scroll({
+      top: elementPosition + 60,
+      left: 0,
+      behavior: "smooth"
+    })
+  }
+
   return (
     <Container>
       <div
@@ -23,7 +32,7 @@ const Header = () => {
           : 'headerwithoutbg'
         }
       >
-        <HashLink to='/#' smooth>
+        <HashLink to='/#' scroll={el => scroll(el, 150)}>
           <h1>
             Mastereloading.
           </h1>
@@ -36,13 +45,13 @@ const Header = () => {
           }
         >
           <li>
-            <HashLink to='/#projects' smooth className='link' onClick={() => { setClickHamburger(false)}}>Projetos</HashLink>
+            <HashLink to='/#projects' scroll={el => scroll(el, 150)} className='link' onClick={() => { setClickHamburger(false)}}>Projetos</HashLink>
           </li>
           <li>
-            <HashLink to='/#about' smooth className='link' onClick={() => { setClickHamburger(false)}}>Sobre mim</HashLink>
+            <HashLink to='/#about' scroll={el => scroll(el, 150)} className='link' onClick={() => { setClickHamburger(false)}}>Sobre mim</HashLink>
           </li>
           <li>
-            <HashLink to='/#contact' smooth className='link' onClick={() => { setClickHamburger(false)}}>Contato</HashLink>
+            <HashLink to='/#contact' scroll={el => scroll(el, 150)} className='link' onClick={() => { setClickHamburger(false)}}>Contato</HashLink>
           </li>
         </ul>
         <div className='hamburger' onClick={() => { setClickHamburger(!clickHamburger)}}>

@@ -4,6 +4,15 @@ import guilhermecv from '../../assets/GuilhermeOliveiraCV.pdf'
 import { BannerContainer, MaskBanner } from './styles'
 
 const Banner = () => {
+  const scroll = (el: HTMLElement, offset: number) => {
+    const elementPosition = el.offsetTop - offset;
+    window.scroll({
+      top: elementPosition + 60,
+      left: 0,
+      behavior: "smooth"
+    })
+  }
+
   return (
     <BannerContainer>
         <MaskBanner>
@@ -15,7 +24,7 @@ const Banner = () => {
           <p className='p2'>Engenheiro de Software e Designer de Aplicativos</p>
           <div className='buttons'>
             <a className='button-dark' href={guilhermecv} download="GuilhermeOliveiraCV.pdf"> Download CV</a>
-            <HashLink to="/#contact" smooth className='button-light'>Contato</HashLink>
+            <HashLink to="/#contact" scroll={el => scroll(el, 150)} className='button-light'>Contato</HashLink>
           </div>
         </div>
     </BannerContainer>
