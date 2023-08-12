@@ -4,6 +4,8 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import { Container } from "./styles"
 import colors from '../../styles/colors'
 
+import { FaLinkedin, FaGithubSquare } from 'react-icons/fa'
+
 const Header = () => {
   const [headerBackground, setHeaderBackground] = useState(false)
   const [clickHamburger, setClickHamburger] = useState(false)
@@ -53,6 +55,20 @@ const Header = () => {
           <li>
             <HashLink to='/#contact' scroll={el => scroll(el, 150)} className='link' onClick={() => { setClickHamburger(false)}}>Contato</HashLink>
           </li>
+          <div className='headericons'>
+            <a
+              href="https://www.github.com/Mastereloading"
+              target="_blank"
+            >
+              <FaGithubSquare className='iconsocial' size={30} style={{ color: colors.white, margin: '0 0.5rem' }} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/Mastereloading"
+              target="_blank"
+            >
+              <FaLinkedin className='iconsocial' size={30} style={{ color: colors.white }} />
+            </a>
+          </div>
         </ul>
         <div className='hamburger' onClick={() => { setClickHamburger(!clickHamburger)}}>
           {

@@ -84,6 +84,9 @@ export const Container = styled.div`
             top: 0;
             right: 0;
             display: initial
+        };
+        .headericons {
+            display: none
         }
     }
 `
