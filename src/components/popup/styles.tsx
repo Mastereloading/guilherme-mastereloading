@@ -58,6 +58,9 @@ export const PopUpBoxContainer = styled.div`
     flex-direction: column;
   };
   @media screen and (max-width: 640px) {
+    .boxup, .boxdown {
+      display: none
+    };
     .exitbutton {
       position: absolute;
       margin: 5px 5px 0 0;
@@ -80,38 +83,6 @@ export const PopUpBoxContainer = styled.div`
       text-align: center;
       display: flex;
       flex-direction: column;
-    };
-    .boxup {
-      display: flex;
-      flex-direction: column;
-      padding: 0.5rem;
-      width: 100px;
-      height: 125px;
-      background: ${colors.white};
-      border-radius: 6px;
-      box-shadow: 0 6px 6px rgba(8, 8, 8, 0.2);
-      position: fixed;
-      bottom: 0;
-      right: 0;
-      margin: 0px 15px 10px 0px;
-      transition: 3s;
-      z-index: 1px;
-    };
-    .boxdown {
-      display: flex;
-      flex-direction: column;
-      padding: 0.5rem;
-      width: 100px;
-      height: 125px;
-      background: ${colors.white};
-      border-radius: 6px;
-      box-shadow: 0 6px 6px rgba(8, 8, 8, 0.2);
-      position: fixed;
-      bottom: 0;
-      right: -100%;
-      margin: 0px 15px 10px 0px;
-      transition: 3s;
-      z-index: 1px;
     };
   }
 `
