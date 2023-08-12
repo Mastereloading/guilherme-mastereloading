@@ -50,6 +50,10 @@ export const FooterContainer = styled.div`
     }
   };
   @media screen and (max-width: 640px) {
-    grid-template-columns: 1fr
+    grid-template-columns: 1fr;
+    .left, .right {
+      align-items: center;
+      text-align: center;
+    };
   }
 `

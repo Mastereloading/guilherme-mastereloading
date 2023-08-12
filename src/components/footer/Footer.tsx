@@ -36,7 +36,7 @@ const Footer = () => {
               href="https://www.linkedin.com/in/Mastereloading"
               target="_blank"
             >
-              <FaLinkedin className='iconsocial' size={30} style={{ color: colors.white, marginRight: '1rem' }} />
+              <FaLinkedin className='iconsocial' size={30} style={{ color: colors.white }} />
             </a>
           </div>
         </div>
