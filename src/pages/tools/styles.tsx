@@ -2,9 +2,7 @@ import styled from "styled-components"
 import colors from "../../styles/colors"
 
 export const Container = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 100px;
+  width: 100%;
   background: ${colors.black};
   margin: auto;
   padding: 6rem 8rem;

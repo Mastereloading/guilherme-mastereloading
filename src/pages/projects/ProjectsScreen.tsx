@@ -1,4 +1,5 @@
 import WorkCard from "../../components/workcard/WorkCard"
+import Page from '../../components/page/Page'
 import { Container } from "./styles"
 
 import project1 from '../../assets/workcardimage/project1.png'
@@ -31,19 +32,23 @@ const Projects = () => {
   ]
 
   return (
-    <Container id='projects'>
-      <h1>Alguns projetos</h1>
-      <div className="cards">
-        {cardsData.map((data, key) => {
-          return (
-            <WorkCard
-              key={key}
-              data={data}
-            />
-          )
-        })}
-      </div>
-    </Container>
+    <div id='projects'>
+      <Page>
+        <Container>
+          <h1>Alguns projetos</h1>
+          <div className="cards">
+            {cardsData.map((data, key) => {
+              return (
+                <WorkCard
+                key={key}
+                data={data}
+                />
+                )
+              })}
+          </div>
+        </Container>
+      </Page>
+    </div>
   )
 }
 

@@ -1,11 +1,11 @@
 import { FaReact, FaAndroid, FaNode } from 'react-icons/fa'
 import { SiFirebase } from 'react-icons/si'
-// import { Container } from './styles'
+import { Container } from './styles'
 
 const Tools = () => {
   return (
     <div id='tools'>
-      {/* <Container> */}
+      <Container>
         <div className='left'>
           <div className='skills'>
             <div className="icontext">
@@ -30,7 +30,7 @@ const Tools = () => {
             </div>
           </div>
         </div>
-      {/* </Container> */}
+      </Container>
     </div>
   )
 }

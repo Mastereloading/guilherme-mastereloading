@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Container } from './styles'
 import { saveMessage } from '../../lib/firebase/firebase'
+import Page from '../../components/page/Page'
 
 const Contact = () => {
   const [message, setMessage] = useState('')
@@ -15,22 +16,24 @@ const Contact = () => {
 
   return (
     <div id='contact'>
-      <Container>
-        <div className="text">
-          <h1>
-            Contato
-          </h1>
-          <p>
-            Estou sempre disponível, envie uma mensagem ou email para discutirmos e codarmos juntos.
-          </p>
-        </div>
-        <div className="form">
-          <textarea className='aaa' rows={12} style={{ outline: 'none', resize: 'none' }} placeholder='Deixe seu contato e uma mensagem sobre novos projetos...' value={message} onChange={text => setMessage(text.target.value)} />
-          <button className="button-light" onClick={() => sendMessage()}>
-            Enviar
-          </button>
-        </div>
-      </Container>
+      <Page>
+        <Container>
+          <div className="text">
+            <h1>
+              Contato
+            </h1>
+            <p>
+              Estou sempre disponível, envie uma mensagem ou email para discutirmos e codarmos juntos.
+            </p>
+          </div>
+          <div className="form">
+            <textarea className='aaa' rows={12} style={{ outline: 'none', resize: 'none' }} placeholder='Deixe seu contato e uma mensagem sobre novos projetos...' value={message} onChange={text => setMessage(text.target.value)} />
+            <button className="button-light" onClick={() => sendMessage()}>
+              Enviar
+            </button>
+          </div>
+        </Container>
+      </Page>
     </div>
   )
 }
