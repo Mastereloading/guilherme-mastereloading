@@ -20,7 +20,9 @@ const Banner = () => {
         </MaskBanner>
         <div className='content'>
           <p>Bem-vindo, Eu sou</p>
+          <div style={{padding: '1.75rem'}}>
           <h1>Guilherme Oliveira</h1>
+          </div>
           <p className='p2'>Engenheiro de Software e Designer de Aplicativos</p>
           <div className='buttons'>
             <a className='button-dark' href={guilhermecv} download="GuilhermeOliveiraCV.pdf"> Download CV</a>

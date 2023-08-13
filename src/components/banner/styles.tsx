@@ -14,13 +14,18 @@ export const BannerContainer = styled.div`
             color: ${colors.primary};
             text-shadow: 3px 3px #080808;
             font-size: 4.5rem;
-            padding: 1.5rem;
+            margin-left: 1.125rem;
+            border-right: 2.25rem solid;
+            width: 16ch;
+            white-space: nowrap;
+            overflow: hidden;     
+            animation: typing 1.375s steps(16), blinking 0.875s infinite step-end alternate;
         };
         p {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
         };
         .p2 {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             padding: 0 0 4rem 0;
         };
         .button-light {
@@ -37,7 +42,13 @@ export const BannerContainer = styled.div`
     @media screen and (max-width: 640px) {
         .content {
             h1 {
-                font-size: 3.5rem
+                font-size: 3.5rem;
+                width: 8ch;
+                border-right: 0;
+                margin-left: 0;
+                white-space: normal;
+                overflow: visible;
+                animation: none;
             };
             p1 {
                 font-size: 1.3rem
@@ -56,8 +67,18 @@ export const BannerContainer = styled.div`
             .button-dark {
                 margin: 0.5rem 3rem
             };
-        }
-    }
+        };
+    };
+    @keyframes typing {
+        from {
+            width: 0;
+        };
+    };
+    @keyframes blinking {
+        50% {
+            border-color: transparent;
+        };
+    };
 `
 
 export const MaskBanner = styled.div`
