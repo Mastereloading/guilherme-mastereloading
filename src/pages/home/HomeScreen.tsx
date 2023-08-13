@@ -29,3 +29,6 @@ const Home = () => {
 }
 
 export default Home
+
+// import Tools from '../tools/ToolsScreen'
+//           <Tools />
