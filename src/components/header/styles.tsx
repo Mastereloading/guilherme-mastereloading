@@ -5,17 +5,18 @@ export const Container = styled.div`
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 20rem;
+        padding: 1rem 18rem;
         position: fixed;
         width: 100%;
         height: 90px;
-        z-index: 10
+        z-index: 10;
+        transition: 0.6s
     };
     .headerwithbg {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 20rem;
+        padding: 1rem 18rem;
         position: fixed;
         width: 100%;
         height: 90px;
@@ -29,6 +30,9 @@ export const Container = styled.div`
     .liston {
         display: flex
     };
+    ul {
+        align-items: center;
+    };
     li {
         padding: 0 1rem
     };
@@ -39,12 +43,22 @@ export const Container = styled.div`
     .hamburger {
         display: none
     };
+    @media screen and (max-width: 1440px) {
+        .headerwithbg {
+            padding: 1rem 10rem;
+            transition: 0.6s
+        };
+        .headerwithoutbg {
+            padding: 1rem 10rem;
+            transition: 0.6s
+        };
+    };
     @media screen and (max-width: 1240px) {
         .headerwithoutbg {
-            padding: 0.5rem 1rem
+            padding: 0.5rem 1rem;
         };
         .headerwithbg {
-            padding: 0.5rem 1rem
+            padding: 0.5rem 1rem;
         };
         .listoff {
             flex-direction: column;

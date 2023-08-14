@@ -47,13 +47,13 @@ const Header = () => {
           }
         >
           <li>
-            <HashLink to='/#projects' scroll={el => scroll(el, 150)} className='link' onClick={() => { setClickHamburger(false)}}>Projetos</HashLink>
+            <HashLink to='/#projects' scroll={el => scroll(el, 150)} className='link' onClick={() => { setClickHamburger(false)}} style={{fontSize: '1.5rem'}}>Projetos</HashLink>
           </li>
           <li>
-            <HashLink to='/#about' scroll={el => scroll(el, 150)} className='link' onClick={() => { setClickHamburger(false)}}>Sobre mim</HashLink>
+            <HashLink to='/#about' scroll={el => scroll(el, 150)} className='link' onClick={() => { setClickHamburger(false)}} style={{fontSize: '1.5rem'}}>Sobre mim</HashLink>
           </li>
           <li>
-            <HashLink to='/#contact' scroll={el => scroll(el, 150)} className='link' onClick={() => { setClickHamburger(false)}}>Contato</HashLink>
+            <HashLink to='/#contact' scroll={el => scroll(el, 150)} className='link' onClick={() => { setClickHamburger(false)}} style={{fontSize: '1.5rem'}}>Contato</HashLink>
           </li>
           <div className='headericons'>
             <a

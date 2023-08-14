@@ -15,7 +15,7 @@ export const BannerContainer = styled.div`
             text-shadow: 3px 3px #080808;
             font-size: 4.5rem;
             margin-left: 1.125rem;
-            border-right: 2.25rem solid;
+            border-right: 1.125rem solid;
             width: 16ch;
             white-space: nowrap;
             overflow: hidden;     
