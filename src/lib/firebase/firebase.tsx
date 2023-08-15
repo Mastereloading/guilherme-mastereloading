@@ -10,9 +10,8 @@ const firebaseConfig = {
 const firebase = initializeApp(firebaseConfig)
 const firestore = getFirestore(firebase)
 
-export const saveMessage = async ( message: string ) => {
+export const saveMessage = async ( email: string, message: string ) => {
   const collectionRef = collection(firestore, 'mastereloadingwebsitemessages')
-  await addDoc(collectionRef, { message })
-
+  await addDoc(collectionRef, { email: email, message: message })
   return '200'
 }

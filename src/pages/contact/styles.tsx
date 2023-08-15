@@ -6,7 +6,7 @@ export const Container = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
   background: ${colors.secondary};
-  padding: 5rem 12rem;
+  padding: 5rem 12rem 0rem 12rem;
   margin: auto;
   .text {
     display: flex;

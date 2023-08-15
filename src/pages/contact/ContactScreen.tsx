@@ -5,9 +5,10 @@ import Page from '../../components/page/Page'
 
 const Contact = () => {
   const [message, setMessage] = useState('')
+  const [contactEmail, setContactEmail] = useState('')
 
   const sendMessage = () => {
-    saveMessage(message)
+    saveMessage(contactEmail, message)
     setMessage('')
     alert('(Este balão de mensagem será editado em breve...) - Sua mensagem foi enviada, entrarei em contato :)')
 
@@ -27,7 +28,8 @@ const Contact = () => {
             </p>
           </div>
           <div className="form">
-            <textarea className='aaa' rows={12} style={{ outline: 'none', resize: 'none' }} placeholder='Deixe seu contato e uma mensagem sobre novos projetos...' value={message} onChange={text => setMessage(text.target.value)} />
+            <textarea id='email' rows={1} style={{ resize: 'none' }} placeholder='Email para contato...' value={contactEmail} onChange={text => setContactEmail(text.target.value)} />
+            <textarea rows={12} style={{ outline: 'none', resize: 'none' }} placeholder='Deixe seu contato e uma mensagem sobre novos projetos...' value={message} onChange={text => setMessage(text.target.value)} />
             <button className="button-light" onClick={() => sendMessage()}>
               Enviar
             </button>
