@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import colors from '../../styles/colors'
+// animation: typing 1.375s steps(16), blinking 0.875s infinite step-end alternate;
 
 export const BannerContainer = styled.div`
     height: 100%;
@@ -16,10 +17,12 @@ export const BannerContainer = styled.div`
             font-size: 4.5rem;
             margin-left: 1.125rem;
             border-right: 1.125rem solid;
-            width: 16ch;
+            width: 15.5ch;
             white-space: nowrap;
-            overflow: hidden;     
-            animation: typing 1.375s steps(16), blinking 0.875s infinite step-end alternate;
+            overflow: hidden;
+            visibility: hidden;
+            animation: namehidden 1s, typing 1.375s steps(18) 1s, blinking 0.875s infinite 2s step-end alternate;
+            animation-fill-mode: forwards;
         };
         p {
             font-size: 1.5rem;
@@ -38,6 +41,24 @@ export const BannerContainer = styled.div`
             display: flex;
             justify-content: center
         }
+    };
+    @keyframes namehidden {
+        99% {
+            visibility: hidden;
+        }
+        100% {
+            visibility: visible;
+        }
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        };
+    };
+    @keyframes blinking {
+        50% {
+            border-color: transparent;
+        };
     };
     @media screen and (max-width: 640px) {
         .content {
@@ -67,16 +88,6 @@ export const BannerContainer = styled.div`
             .button-dark {
                 margin: 0.5rem 3rem
             };
-        };
-    };
-    @keyframes typing {
-        from {
-            width: 0;
-        };
-    };
-    @keyframes blinking {
-        50% {
-            border-color: transparent;
         };
     };
 `
