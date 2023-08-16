@@ -70,6 +70,7 @@ export const BannerContainer = styled.div`
                 white-space: normal;
                 overflow: visible;
                 animation: none;
+                visibility: visible;
             };
             p1 {
                 font-size: 1.3rem
