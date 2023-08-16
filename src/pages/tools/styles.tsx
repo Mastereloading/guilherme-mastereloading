@@ -6,11 +6,9 @@ export const Container = styled.div`
   background: ${colors.black};
   margin: auto;
   padding: 6rem 8rem;
-  .left {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 4rem;
     .title {
       margin-bottom: 5rem;
     };
@@ -38,39 +36,6 @@ export const Container = styled.div`
       font-size: 1.2rem;
       color: ${colors.white}
     }
-  };
-  .right {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    max-width: 600px;
-    margin: auto;
-    .image {
-      border-radius: 100%;
-      border: 2px solid ${colors.white};
-      box-shadow: 0 8px 8px rgba(255, 255, 255, 0.2);
-      width: 70%;
-      height: 70%;
-      background-size: cover;
-      background-position: cover;
-      object-fit: cover
-    }
-  };
   @media screen and (max-width: 1240px) {
-    grid-template-columns: 1fr;
     padding: 3rem 1.5rem 4rem 1.5rem;
-    .left {
-      width: 100%;
-      margin-left: 0;
-      .title {
-        margin-bottom: 3rem;
-      };
-      .skills {
-        grid-gap: 20px;
-      };
-    }
-    .right {
-      display: none
-    }
-  }
 `

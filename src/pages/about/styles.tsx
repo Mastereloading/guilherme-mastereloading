@@ -5,10 +5,10 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 100px;
-  background: ${colors.black};
   margin: auto;
   padding: 6rem 8rem;
   .left {
+    justify-content: center;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -70,9 +70,6 @@ export const Container = styled.div`
       .skills {
         grid-gap: 20px;
       };
-    }
-    .right {
-      display: none
     }
   }
 `

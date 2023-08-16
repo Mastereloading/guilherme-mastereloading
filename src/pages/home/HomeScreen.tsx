@@ -1,7 +1,8 @@
 import Header from '../../components/header/Header'
 import Banner from '../../components/banner/Banner'
-import Projects from '../projects/ProjectsScreen'
 import About from '../about/AboutScreen'
+import Tools from '../tools/ToolsScreen'
+import Projects from '../projects/ProjectsScreen'
 import Contact from '../contact/ContactScreen'
 import Footer from '../../components/footer/Footer'
 import colors from '../../styles/colors'
@@ -18,8 +19,9 @@ const Home = () => {
             backgroundColor: colors.white
           }}
           >
-          <Projects />
           <About />
+          <Tools />
+          <Projects />
           <Contact />
         </div>
         <Footer />
@@ -29,6 +31,3 @@ const Home = () => {
 }
 
 export default Home
-
-// import Tools from '../tools/ToolsScreen'
-//           <Tools />
