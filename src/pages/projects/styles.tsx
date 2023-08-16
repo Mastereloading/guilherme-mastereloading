@@ -12,7 +12,7 @@ export const Container = styled.div`
     grid-gap: 40px;
   };
   h1 {
-    color: ${colors.black};
+    color: ${colors.primary};
     padding 0rem 0 2.5rem 0;
     font-size: 2.5rem
   };

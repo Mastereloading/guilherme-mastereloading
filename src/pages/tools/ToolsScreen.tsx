@@ -1,5 +1,5 @@
 import Page from '../../components/page/Page'
-import { FaReact, FaAndroid, FaNode } from 'react-icons/fa'
+import { FaReact, FaAndroid, FaNode, FaVuejs } from 'react-icons/fa'
 import { SiFirebase } from 'react-icons/si'
 import { Container } from './styles'
 
@@ -29,6 +29,11 @@ const Tools = () => {
                 <SiFirebase size={40} style={{ color: '#F2BD39', marginBottom: '0.5rem' }} />
                 <h3 style={{ color: '#F2BD39' }}>Firebase</h3>
                 <h4>Já estudei AWS porém a maioria dos projetos utilizo o banco de dados da Google (Firebase) e suas ferramentas, para projetos mais antigos tenho conhecimento de SQL.</h4>
+              </div>
+              <div className="icontext">
+                <FaVuejs size={40} style={{ color: '#42b883', marginBottom: '0.5rem' }} />
+                <h3 style={{ color: '#42b883' }}>VueJS</h3>
+                <h4>Seis meses de estudo no framework VueJS.</h4>
               </div>
             </div>
           </div>

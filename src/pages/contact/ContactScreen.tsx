@@ -19,7 +19,7 @@ const Contact = () => {
     <div id='contact'>
       <Page>
         <Container>
-          <div className="text">
+          <div className="text" style={{ width: '80%' }}>
             <h1>
               Contato
             </h1>

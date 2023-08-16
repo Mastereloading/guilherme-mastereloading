@@ -23,7 +23,7 @@ export const Container = styled.div`
         font-size: 0.9rem
       };
       .icontext {
-        padding: 0rem 1rem 0 0;
+        padding: 0rem 1rem 1rem 0;
         width: 100%;
       };
     };

@@ -33,7 +33,7 @@ const Projects = () => {
 
   return (
     <div id='projects'>
-      <Page>
+      <Page background='black'>
         <Container>
           <h1>Alguns projetos</h1>
           <div className="cards">

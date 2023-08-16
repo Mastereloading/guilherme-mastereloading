@@ -7,6 +7,8 @@ export const Container = styled.div`
   grid-gap: 100px;
   margin: auto;
   padding: 6rem 8rem;
+  background-image: -webkit-linear-gradient(-20deg, ${colors.secondary} 55%, ${colors.black} 55.5%);
+
   .left {
     justify-content: center;
     width: 100%;
@@ -34,11 +36,11 @@ export const Container = styled.div`
     h1 {
       font-size: 2.5rem;
       padding: 0.8rem 0;
-      color: ${colors.white}
+      color: ${colors.black}
     };
     p {
       font-size: 1.2rem;
-      color: ${colors.white}
+      color: ${colors.black}
     }
   };
   .right {
@@ -49,7 +51,7 @@ export const Container = styled.div`
     margin: auto;
     .image {
       border-radius: 100%;
-      border: 2px solid ${colors.white};
+      border: 2px solid ${colors.black};
       box-shadow: 0 8px 8px rgba(255, 255, 255, 0.2);
       width: 70%;
       height: 70%;

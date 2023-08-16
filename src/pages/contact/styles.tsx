@@ -8,6 +8,10 @@ export const Container = styled.div`
   background: ${colors.secondary};
   padding: 5rem 12rem 0rem 12rem;
   margin: auto;
+  height: 40rem;
+  width: 100%;
+  background-image: -webkit-linear-gradient(-20deg, ${colors.black} 40%, ${colors.secondary} 40.5%);
+
   .text {
     display: flex;
     flex-direction: column;
@@ -15,11 +19,11 @@ export const Container = styled.div`
     h1 {
       font-size: 2.5rem;
       padding: 0.8rem 0;
-      color: ${colors.black}
+      color: ${colors.white}
     };
     p {
       font-size: 1.0rem;
-      color: ${colors.black}
+      color: ${colors.white}
     }
   };
   .form {
