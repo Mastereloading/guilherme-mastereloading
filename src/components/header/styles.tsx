@@ -36,6 +36,10 @@ export const Container = styled.div`
     li {
         padding: 0 1rem
     };
+    a {
+        color: colors.white;
+        margin: 0 0 0 0.5rem;
+    };
     .link {
         font-size: 1.2rem;
         font-weight: 500;

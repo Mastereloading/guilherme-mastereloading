@@ -30,7 +30,7 @@ const Footer = () => {
               href="https://www.github.com/Mastereloading"
               target="_blank"
             >
-              <FaGithubSquare className='iconsocial' size={30} style={{ color: colors.white, marginRight: '1rem' }} />
+              <FaGithubSquare className='iconsocial' size={30} />
             </a>
             <a
               href="https://www.linkedin.com/in/Mastereloading"

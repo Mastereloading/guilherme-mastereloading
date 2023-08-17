@@ -44,6 +44,10 @@ export const FooterContainer = styled.div`
   p {
     font-size: 1rem
   };
+  a {
+      color: colors.white;
+      margin: 0 1rem 0 0;
+  };
   .iconsocial {
     &:hover {
       cursor: pointer;

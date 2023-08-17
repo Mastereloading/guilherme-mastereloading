@@ -15,9 +15,9 @@ export const BannerContainer = styled.div`
             color: ${colors.primary};
             text-shadow: 3px 3px #080808;
             font-size: 4.5rem;
-            margin-left: 1.125rem;
             border-right: 1.125rem solid;
-            width: 15.5ch;
+            padding: 0 0.5rem 0 1.625rem;
+            width: 18ch;
             white-space: nowrap;
             overflow: hidden;
             visibility: hidden;
@@ -25,7 +25,7 @@ export const BannerContainer = styled.div`
             animation-fill-mode: forwards;
         };
         p {
-            font-size: 1.5rem;
+            font-size: 1.75rem;
         };
         .p2 {
             font-size: 1.5rem;
@@ -53,6 +53,9 @@ export const BannerContainer = styled.div`
     @keyframes typing {
         from {
             width: 0;
+        };
+        to {
+            width: 100%;
         };
     };
     @keyframes blinking {
