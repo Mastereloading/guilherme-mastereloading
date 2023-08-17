@@ -4,8 +4,7 @@ import colors from "../../styles/colors"
 export const Container = styled.div`
   width: 100%;
   height: 100$;
-  margin: auto;
-  padding: 6rem 8rem;
+  padding: 6rem 8rem 0rem 8rem;
   display: flex;
   flex-direction: column;
   .title {

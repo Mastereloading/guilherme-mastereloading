@@ -21,8 +21,6 @@ export const Container = styled.div`
   @media screen and (max-width: 1240px) {
     .cards {
       max-width: 90%;
-      margin: auto;
-  
       grid-template-columns: 1fr;
     }
   }

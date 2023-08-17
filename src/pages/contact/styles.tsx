@@ -8,12 +8,13 @@ export const Container = styled.div`
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
   margin: auto;
-  background-image: -webkit-linear-gradient(-22deg, ${colors.black} 38%, ${colors.secondary} 38.6%);
+  background-image: -webkit-linear-gradient(-22deg, ${colors.black} 38%, ${colors.secondary} 38.2%);
   padding: 0 15rem 0 0;
   .text {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0;
+    padding: 8rem 0 4rem 0;
+    width: 80%;
     h1 {
       font-size: 2.5rem;
       padding: 0.8rem 0;
@@ -55,6 +56,7 @@ export const Container = styled.div`
     grid-template-columns: 1fr;
     padding: 1rem 3rem;
     .text {
+      width: 100%;
       margin-left: 0;
       text-align: center
     }
