@@ -61,6 +61,19 @@ export const Container = styled.div`
     }
   };
   @media screen and (max-width: 1240px) {
+    padding: 3rem 4rem 3rem 16rem;
+    .left {
+      width: 100%;
+      margin-left: 0;
+      .title {
+        margin-bottom: 3rem;
+      };
+      .skills {
+        grid-gap: 20px;
+      };
+    }
+  }
+  @media screen and (max-width: 640px) {
     grid-template-columns: 1fr;
     padding: 3rem 1.5rem 4rem 1.5rem;
     .left {
