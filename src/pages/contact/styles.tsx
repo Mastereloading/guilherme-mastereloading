@@ -52,9 +52,11 @@ export const Container = styled.div`
       transition: 0.3s
     }
   };
-  @media screen and (max-width: 1040px) {
+  @media screen and (max-width: 1240px) {
     grid-template-columns: 1fr;
     padding: 1rem 3rem;
+    background-image: none;
+    background-color: ${colors.black};
     .text {
       width: 100%;
       margin-left: 0;

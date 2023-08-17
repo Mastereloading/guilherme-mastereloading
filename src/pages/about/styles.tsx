@@ -74,6 +74,8 @@ export const Container = styled.div`
     }
   }
   @media screen and (max-width: 640px) {
+    background-image: none;
+    background-color: ${colors.secondary};
     grid-template-columns: 1fr;
     padding: 3rem 1.5rem 4rem 1.5rem;
     .left {
