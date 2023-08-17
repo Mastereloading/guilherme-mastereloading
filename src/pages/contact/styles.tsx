@@ -3,12 +3,12 @@ import colors from "../../styles/colors"
 
 export const Container = styled.div`
   width: 100%;
-  height: 100%;
+  min-height: 40rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
   margin: auto;
-  background-image: -webkit-linear-gradient(-22deg, ${colors.black} 38%, ${colors.secondary} 38.5%);
+  background-image: -webkit-linear-gradient(-22deg, ${colors.black} 38%, ${colors.secondary} 38.6%);
   padding: 0 15rem 0 0;
   .text {
     display: flex;

@@ -3,13 +3,13 @@ import colors from "../../styles/colors"
 
 export const Container = styled.div`
   width: 100%;
-  height: 100%;
+  min-height: 40rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 100px;
   margin: auto;
   padding: 6rem 8rem 6rem 20rem;
-  background-image: -webkit-linear-gradient(-22deg, ${colors.secondary} 70.5%, ${colors.black} 71.3%);
+  background-image: -webkit-linear-gradient(-22deg, ${colors.secondary} 70.5%, ${colors.black} 71.1%);
   .left {
     justify-content: center;
     width: 100%;
