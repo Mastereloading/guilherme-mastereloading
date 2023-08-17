@@ -2,8 +2,9 @@ import styled from "styled-components"
 import colors from "../../styles/colors"
 
 export const Container = styled.div`
+  height: 100%;
+  width: 100%;
   text-align: center;
-  padding: 4rem 0 6rem 0;
   .cards {
     max-width: 1240px;
     margin: auto;

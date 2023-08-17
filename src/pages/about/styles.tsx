@@ -2,13 +2,14 @@ import styled from "styled-components"
 import colors from "../../styles/colors"
 
 export const Container = styled.div`
+  width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 100px;
   margin: auto;
-  padding: 6rem 8rem;
-  background-image: -webkit-linear-gradient(-20deg, ${colors.secondary} 55%, ${colors.black} 55.5%);
-
+  padding: 6rem 8rem 6rem 20rem;
+  background-image: -webkit-linear-gradient(-22deg, ${colors.secondary} 70.5%, ${colors.black} 71.3%);
   .left {
     justify-content: center;
     width: 100%;

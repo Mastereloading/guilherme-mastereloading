@@ -5,7 +5,7 @@ import eu from '../../assets/eu.jpeg'
 const About = () => {
   return (
     <div id='about'>
-      <Page background='black'>
+      <Page background='black' style={{paddingLeft: '0'}}>
         <Container>
           <div className='left'>
             <div className='title'>

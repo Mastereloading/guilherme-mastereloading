@@ -2,6 +2,7 @@ import styled from "styled-components"
 import colors from "../../styles/colors"
 
 export const Container = styled.div`
+  max-height: 575px;
   background: ${colors.black};
   padding: 3rem 1rem;
   border: 1px solid ${colors.white};

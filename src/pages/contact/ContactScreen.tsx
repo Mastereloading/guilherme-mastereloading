@@ -17,7 +17,7 @@ const Contact = () => {
 
   return (
     <div id='contact'>
-      <Page>
+      <Page background='black' style={{paddingRight: '0px'}}>
         <Container>
           <div className="text" style={{ width: '80%' }}>
             <h1>
@@ -29,7 +29,7 @@ const Contact = () => {
           </div>
           <div className="form">
             <textarea id='email' rows={1} style={{ resize: 'none' }} placeholder='Email para contato...' value={contactEmail} onChange={text => setContactEmail(text.target.value)} />
-            <textarea rows={12} style={{ outline: 'none', resize: 'none' }} placeholder='Deixe seu contato e uma mensagem sobre novos projetos...' value={message} onChange={text => setMessage(text.target.value)} />
+            <textarea rows={12} style={{ outline: 'none', resize: 'none' }} placeholder='Mensagem sobre novos projetos...' value={message} onChange={text => setMessage(text.target.value)} />
             <button className="button-light" onClick={() => sendMessage()}>
               Enviar
             </button>
