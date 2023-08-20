@@ -1,6 +1,29 @@
 import styled from "styled-components"
 import colors from "../../styles/colors"
 
+export const StyledArrow = styled.div`
+  background-color: rgba(204, 170, 77, 0.9);
+  width: 3rem;
+  height: 7.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 12%;
+  box-shadow: 0 4px 4px rgba(255, 255, 255, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+  
+  &:hover {
+    background-color: ${colors.primary};
+    transform: scale(1.1);
+  };
+
+  .arrow-icon {
+    font-size: 50px;
+    color: ${colors.black};
+  };
+`;
+
 export const Container = styled.div`
   width: 100%;
   height: 40rem;
@@ -28,18 +51,22 @@ export const Container = styled.div`
   };
   .cards {
     height: 50%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 40px;
-    align-items: flex-end;
+    margin: 0 5rem 0rem 5rem;
+  }
+  .slick-slider {
+    margin-top: 5%;
+    display: flex;
+    cursor: pointer;
+  };
+  .active {
+    border-bottom: 3px solid ${colors.primary};
+    margin-bottom: 20px;
   };
   .icontext {
-    width: 12rem;
-    height: 100%;
     display flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: center;
   };
   h3 {
