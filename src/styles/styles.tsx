@@ -13,7 +13,7 @@ export default createGlobalStyle`
 
     };
     h1, h2, h3, h4, p, a {
-        color: ${colors.tertiary};
+        color: ${colors.white};
         text-decoration: none;
     };
     ul {

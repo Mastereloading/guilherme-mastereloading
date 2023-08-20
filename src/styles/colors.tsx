@@ -1,9 +1,8 @@
 const colors = {
     primary: '#DDB100', // yellow
-    secondary: '#E0BF61',
-    tertiary: '#F5F5F5',
+    secondary: '#ccaa4d',
     white: '#F5F5F5',
-    black: '#1C1C1C'
+    black: '#151515'
 
     // primary: '#2155CD', // blue
     // secondary: '#0AA1DD',
