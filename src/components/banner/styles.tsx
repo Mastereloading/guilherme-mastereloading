@@ -69,11 +69,12 @@ export const BannerContainer = styled.div`
                 font-size: 3.5rem;
                 width: 8ch;
                 border-right: 0;
-                margin-left: 0;
+                margin-left: 0px;
                 white-space: normal;
                 overflow: visible;
                 animation: none;
                 visibility: visible;
+                padding: 0;
             };
             p1 {
                 font-size: 1.3rem

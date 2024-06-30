@@ -50,7 +50,6 @@ const Tools = () => {
 
   const handleArrowClick = (value: number) => {
     setTimeout(() => {
-      console.log(activeCarousel)
       if (activeCarousel + value < 0) {
         setActiveCarousel(cardsData.length - 1)
       } else if (activeCarousel + value > cardsData.length - 1) {
@@ -81,8 +80,8 @@ const Tools = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
-    slidesToShow: 5,
+    speed: 1000,
+    slidesToShow: Number((Number(window.innerWidth) <= 640) ? 1 : (Number(window.innerWidth) <= 1240) ? 3 : 5),
     slidesToScroll: 1,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />

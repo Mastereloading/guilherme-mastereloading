@@ -26,7 +26,7 @@ export const StyledArrow = styled.div`
 
 export const Container = styled.div`
   width: 100%;
-  height: 40rem;
+  min-height: 32rem;
   display: flex;
   flex-direction: column;
 
@@ -87,4 +87,32 @@ export const Container = styled.div`
   };
   @media screen and (max-width: 1240px) {
     padding: 3rem 1.5rem 4rem 1.5rem;
+  };
+  @media screen and (max-width: 640px) {
+    .cardInfo {
+      height: 50%;
+      min-height: 13rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 0px;
+      margin: 3rem 1rem 0 1rem;
+    };
+    .left {
+      display: none;
+    };
+    .right {
+      width: 100%;
+    };
+    .cards {
+      height: 50%;
+      margin: 3rem 1rem 0rem 1rem;
+    };
+    h1 {
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 0 0;
+    };
+  };
 `

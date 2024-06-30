@@ -3,7 +3,7 @@ import colors from "../../styles/colors"
 
 export const Container = styled.div`
   width: 100%;
-  min-height: 40rem;
+  min-height: 32rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 100px;
@@ -39,7 +39,7 @@ export const Container = styled.div`
       color: ${colors.black}
     };
     p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
       color: ${colors.black}
     }
   };
@@ -87,6 +87,12 @@ export const Container = styled.div`
       .skills {
         grid-gap: 20px;
       };
+    };
+    h1, p {
+      text-align: center;
+    };
+    .right {
+      display: none;
     }
   }
 `

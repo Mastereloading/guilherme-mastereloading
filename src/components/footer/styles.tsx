@@ -59,5 +59,9 @@ export const FooterContainer = styled.div`
       align-items: center;
       text-align: center;
     };
+    P {
+      text-align: center;
+      margin: 0 5px 0 5px;
+    };
   }
 `

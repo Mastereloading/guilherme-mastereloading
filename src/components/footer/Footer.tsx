@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <div className="icontext">
             <FaPhone size={20} style={{ color: colors.white, marginRight: '2rem' }} />
-            <h4>(11) 92003-1173</h4>
+            <h4>(11) 92000-6289</h4>
           </div>
           <div className="icontext">
             <FaMailBulk size={20} style={{ color: colors.white, marginRight: '2rem' }} />

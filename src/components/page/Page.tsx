@@ -3,7 +3,7 @@ import colors from '../../styles/colors'
 
 const Page = (props: any) => {
   return (
-    <Container style={{ ...props.style, backgroundColor: props.background === 'black' ? colors.black : colors.secondary}}>
+    <Container style={{ ...props.style, backgroundColor: props.background === 'black' ? colors.black : colors.secondary }}>
       {
         props.children
       }
