@@ -2,7 +2,7 @@ import Header from '../../components/header/Header'
 import Banner from '../../components/banner/Banner'
 import About from '../about/AboutScreen'
 import Tools from '../tools/ToolsScreen'
-import Projects from '../projects/ProjectsScreen'
+// import Projects from '../projects/ProjectsScreen'
 import Contact from '../contact/ContactScreen'
 import Footer from '../../components/footer/Footer'
 import colors from '../../styles/colors'
@@ -21,7 +21,7 @@ const Home = () => {
           >
           <About />
           <Tools />
-          <Projects />
+          {/* <Projects /> */}
           <Contact />
         </div>
         <Footer />
